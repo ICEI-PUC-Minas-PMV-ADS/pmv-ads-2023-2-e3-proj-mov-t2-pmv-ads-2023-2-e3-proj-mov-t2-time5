@@ -73,12 +73,11 @@ Obs.: todas as informações para gerar os indicadores devem estar no diagrama d
 
 ## Requisitos
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/95951195/3656f1fa-1cf4-472b-bfae-15251a6839d7)
+
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
 
 ### Requisitos Funcionais
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/95951195/3656f1fa-1cf4-472b-bfae-15251a6839d7)
-
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
