@@ -33,11 +33,7 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
-
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+O aplicativo de doações é direcionado a duas principais categorias de usuários: pessoas interessadas em fazer doações de alimentos, roupas e outros itens essenciais, e indivíduos e famílias de baixa renda que necessitam dessas doações para suprir suas necessidades básicas. O aplicativo busca conectar esses dois grupos, facilitando a doação e a distribuição de recursos de maneira eficaz e significativa.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
