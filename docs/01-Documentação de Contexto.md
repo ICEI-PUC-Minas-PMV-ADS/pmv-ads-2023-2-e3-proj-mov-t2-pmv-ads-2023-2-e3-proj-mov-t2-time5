@@ -25,12 +25,7 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Doar é se dedicar a uma causa que salva vidas, pois garante a sobrevivência de famílias necessitadas. Atualmente, com o aumento das desigualdades sociais, com muitos perdendo empregos e com dificuldades financeiras, a doação de alimentos, roupas, itens de higiene, brinquedos, etc, é uma colaboração de fundamental importância. Este trabalho visa fornecer uma alternativa para essas pessoas que querem ajudar e para quem precisa receber doações, além de instituições de caridade, criando uma conexão de oportunidades para ambos.
 
 ## Público-Alvo
 O aplicativo de doações é direcionado a duas principais categorias de usuários: pessoas interessadas em fazer doações de alimentos, roupas e outros itens essenciais, e indivíduos e famílias de baixa renda que necessitam dessas doações para suprir suas necessidades básicas. O aplicativo busca conectar esses dois grupos, facilitando a doação e a distribuição de recursos de maneira eficaz e significativa.
