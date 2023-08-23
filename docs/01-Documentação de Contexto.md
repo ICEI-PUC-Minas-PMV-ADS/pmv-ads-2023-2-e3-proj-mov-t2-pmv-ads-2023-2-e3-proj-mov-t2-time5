@@ -1,27 +1,21 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A pobreza e a fome vêm crescendo nos últimos anos no Brasil e grande parte da população ainda sofre com a escassez de recursos e condições mínimas para viver. A fome, como manifestação extrema de carência alimentar, está diretamente ligada à pobreza, que abrange uma gama mais ampla de privações.  
+
+Em um relatório recente (12/07/23) divulgado pela ONU - organização das nações unidas- cerca de 70,3 milhões de brasileiros (32,8% da população) encontram-se em situação de insegurança alimentar. Já o número de pessoas que não tem o que comer (um estado mais grave de insegurança alimentar) é estimado em 21 milhões (9,9%). 
+
+A desigualdade no país é um fato, e enquanto efetiva para uns, para outros é uma realidade inimaginável. Como um problema de base, deve ser resolvido por meio de ações governamentais. Porém, existem formas da própria população se ajudar. Além das campanhas de conscientização contra o desperdício de alimentos, por exemplo, existem várias campanhas de doação. Doação de alimentos, de roupas, remédios e até doação em dinheiro para ONGs que existem para essa finalidade. São iniciativas poderosas que se organizam em prol de uma causa nobre: ajudar aqueles que estão em necessidade. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Com o projeto, buscamos auxiliar o combate à fome e a pobreza (definir local: algum estado ou Brasil?), por meio de doações de mantimentos e itens básicos. Essas doações seriam da população, para a própria população, por meio de um aplicativo celular. 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Temos como objetivo criar um app de doação de alimentos, roupas e outros tipos de itens essenciais. Nessa aplicação, se cadastrariam tanto as pessoas que desejam doar, quanto as pessoas que necessitam ou arrecadam esses tipos de artigos. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Como objetivos específicos, podemos enfatizar: 
+
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
