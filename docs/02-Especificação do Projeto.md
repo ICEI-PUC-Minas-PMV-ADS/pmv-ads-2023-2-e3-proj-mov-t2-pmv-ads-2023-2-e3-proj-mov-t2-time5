@@ -93,6 +93,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-004| O sistema deve ter uma interface simples e intuitiva | MÉDIA | 
 |RNF-005| A aplicação deve retornar os resultados da busca de serviços em até 5 segundos.  | MÉDIA | 
+|RNF-006| O usuário deve estar logado no sistema para receber uma doação ou fazer uma doação  | ALTA | 
+|RNF-007| O usuário pode solicitar uma doação  | MÉDIA | 
+|RNF-008| O usuário pode cadastrar um alimento para ser doado  | ALTA | 
+|RNF-009| O usuário deve conseguir fazer um cadastro no sistema  | ALTA | 
+|RNF-010| O sistema deve confirmar o pedido ou doação  | ALTA | 
+|RNF-010| O sistema deve confirmar entrega ou confirmação do alimento  | ALTA | 
 
 ## Restrições
 
