@@ -154,13 +154,16 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 
 ![grafico](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/112135999/b49eaccb-6af7-4017-8d48-0428196a97f2)
 
+![Lista](https://app.asana.com/0/1205355147771278/1205355171518338) 
+![Cronograma](https://app.asana.com/0/1205355147771278/1205355171518340)
 
 ## Gerenciamento de Equipe
 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
 
-![timeline](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/112135999/5691cee6-6315-44cc-b65d-7078ea59ade2)
+![timeline](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/112135999/e8aad8c7-70f7-4739-83c2-794ead688f60)
 
+![Quadro](https://app.asana.com/0/1205355147771278/1205355171518339)
 
 ## Gestão de Orçamento
 
