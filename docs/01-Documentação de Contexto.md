@@ -7,7 +7,7 @@ Em um relatório recente (12/07/23) divulgado pela ONU - organização das naç�
 A desigualdade no país é um fato, e enquanto efetiva para uns, para outros é uma realidade inimaginável. Como um problema de base, deve ser resolvido por meio de ações governamentais. Porém, existem formas da própria população se ajudar. Além das campanhas de conscientização contra o desperdício de alimentos, por exemplo, existem várias campanhas de doação. Doação de alimentos, de roupas, remédios e até doação em dinheiro para ONGs que existem para essa finalidade. São iniciativas poderosas que se organizam em prol de uma causa nobre: ajudar aqueles que estão em necessidade. 
 
 ## Problema
-Com o projeto, buscamos auxiliar o combate à fome e a pobreza (definir local: algum estado ou Brasil?), por meio de doações de mantimentos e itens básicos. Essas doações seriam da população, para a própria população, por meio de um aplicativo celular. 
+Com o projeto, buscamos auxiliar o combate à fome e a pobreza, inicialmente, na cidade de Belo Horizonte, por meio de doações de mantimentos e itens básicos. Essas doações seriam da população, para a própria população, por meio de um aplicativo celular. 
 
 ## Objetivos
 
