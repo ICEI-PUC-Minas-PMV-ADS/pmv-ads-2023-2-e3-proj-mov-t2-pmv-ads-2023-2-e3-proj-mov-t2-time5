@@ -14,6 +14,9 @@ Com o projeto, buscamos auxiliar o combate à fome e a pobreza, inicialmente, na
 Temos como objetivo criar um app de doação de alimentos, roupas e outros tipos de itens essenciais. Nessa aplicação, se cadastrariam tanto as pessoas que desejam doar, quanto as pessoas que necessitam ou arrecadam esses tipos de artigos. 
 
 Como objetivos específicos, podemos enfatizar: 
+1) Permitir que o usuário cadastre doações.
+2) Permitir que o usuário solicite uma doação.
+3) Permitir a comunicação entre doadores e receptores.
 
  
 
