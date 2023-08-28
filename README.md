@@ -6,7 +6,7 @@
 
 `EIXO 2 - 2023/2`
 
-Nesse projeto buscamos auxiliar o combate à fome e a pobreza, inicialmente, na cidade de Belo Horizonte, por meio de um app de doação de alimentos, roupas e outros tipos de itens essenciais. Nessa aplicação, se cadastrariam tanto as pessoas que desejam doar, quanto as pessoas que necessitam ou arrecadam esses tipos de artigos, essas doações seriam da população, para a própria população, por meio de um aplicativo celular.
+Nesse projeto buscamos auxiliar o combate à fome e a pobreza, inicialmente, na cidade de Belo Horizonte, por meio de um app de doação de alimentos, roupas e outros tipos de itens essenciais. Nessa aplicação, se cadastrariam tanto as pessoas que desejam doar, quanto as pessoas que necessitam ou arrecadam esses tipos de artigos, dessa forma essas doações seriam da população, para a própria população, por meio de um aplicativo celular.
 
 ## Integrantes
 
