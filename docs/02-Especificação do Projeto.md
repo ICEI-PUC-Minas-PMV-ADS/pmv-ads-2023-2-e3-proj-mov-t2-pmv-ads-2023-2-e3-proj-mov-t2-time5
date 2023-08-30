@@ -52,12 +52,6 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em segu
 
 ![Processo 1](img/02-bpmn-proc1.png)
 
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
-
 ## Indicadores de Desempenho
 
 Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
@@ -80,9 +74,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| Permitir que o usuário cadastre doações | ALTA | 
 |RF-002| O usuário deve conseguir visualizar as doações | MÉDIA |
 |RF-003| Permitir a comunicação entre doadores e receptores | MÉDIA |
-|RF-003| Permitir a comunicação entre doadores e receptores | MÉDIA |
-|RF-003| O sistema deve facilitar a busca por tipo de doação | MÉDIA |
-|RF-003| O sistema deve exibir detalhes de uma doação específica | MÉDIA |
+|RF-004| O sistema deve facilitar a busca por tipo de doação | MÉDIA |
+|RF-005| O sistema deve exibir detalhes de uma doação específica | MÉDIA |
 
 ### Requisitos não Funcionais
 
@@ -98,7 +91,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-008| O usuário pode cadastrar um alimento para ser doado  | ALTA | 
 |RNF-009| O usuário deve conseguir fazer um cadastro no sistema  | ALTA | 
 |RNF-010| O sistema deve confirmar o pedido ou doação  | ALTA | 
-|RNF-010| O sistema deve confirmar entrega ou confirmação do alimento  | ALTA | 
+|RNF-011| O sistema deve confirmar entrega ou confirmação do alimento  | ALTA | 
 
 ## Restrições
 
@@ -114,24 +107,35 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+Os usuários do Aplicativo que necessitam doar e/ou receber doação, necessitam estar cadastrados com usuário e login. A partir do cadastro de informações necessárias para o acesso ao sistema, como endereço de entrega ou coleta das doações e telefone e/ou email de contato, os usuários terão as funcionalidades do sistema disponíveis para a utilização.
+Conforme a proposta inicial descrita no projeto, o usuário doador necessita cadastrar os itens a doar e o usuário receptor necessita cadastrar os itens de que necessita. O sistema vai disponibilizar aos dois usuários a pesquisa e/ou o filtro para facilitar a solução de seus problemas.
+Para finalizar cada processo o usuário receptor solicita a doação e o usuário doador autoriza ou recusa a liberação da doação cadastrada.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+![UseCase - Campanha do Kilo](https://github.com/astormg/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/104168502/2e565ade-aae8-4722-966a-2ca109be8413)
+
+As referências abaixo foram utilizadas na geração do artefato “Diagrama de Casos de Uso”.
 
 > **Links Úteis**:
 > - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
 > - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
 > - [Diagrams](https://app.diagrams.net/)
 
 # Matriz de Rastreabilidade
 
 A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
+Utilizando os requisitos Funcionais descritos no projeto, definimos a rastreabilidade dos requisitos necessários para o funcionamento do sistema:
 
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| Permitir que o usuário cadastre doações | ALTA | 
+|RF-002| O usuário deve conseguir visualizar as doações | MÉDIA |
+|RF-003| Permitir a comunicação entre doadores e receptores | MÉDIA |
+|RF-004| O sistema deve facilitar a busca por tipo de doação | MÉDIA |
+|RF-005| O sistema deve exibir detalhes de uma doação específica | MÉDIA |
+
+![image](https://github.com/astormg/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/104168502/94d5768c-ddbf-47c8-a6f4-b012f9159bb6)
+
 
 > **Links Úteis**:
 > - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
