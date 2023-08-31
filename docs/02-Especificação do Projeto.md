@@ -76,6 +76,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| Permitir a comunicação entre doadores e receptores | MÉDIA |
 |RF-004| O sistema deve facilitar a busca por tipo de doação | MÉDIA |
 |RF-005| O sistema deve exibir detalhes de uma doação específica | MÉDIA |
+|RF-005| O sistema deve exibir detalhes de uma doação específica | MÉDIA |
+|RF-006| O sistema deve permitir o login | ALTA |
+|RF-007| O sistema deve permitir o cadastro de usuários | ALTA |
 
 ### Requisitos não Funcionais
 
