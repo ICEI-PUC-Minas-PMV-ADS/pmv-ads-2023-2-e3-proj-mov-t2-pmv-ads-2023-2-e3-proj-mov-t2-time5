@@ -11,7 +11,7 @@ Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina tam
 | Projeto de Interfaces |  Asana  | https://app.asana.com/0/1205355147771278/1205355171518338 |
 | Gerenciamento do Projeto| Asana - Quadro |  https://app.asana.com/0/1205355147771278/1205355171518339  |
 | IDE|Visual Studio Code |  [VS Code](https://code.visualstudio.com/) |
-| Comunicação|Teams, Whatsapp |  [Teams](https://www.microsoft.com/pt-br/microsoft-teams/log-in) e Whatsapp   |
+| Comunicação|Teams,  Whatsapp |  [Teams](https://www.microsoft.com/pt-br/microsoft-teams/log-in) e [Whatsapp](https://web.whatsapp.com/)   |
 
 ## Controle de Versão
 
@@ -60,7 +60,7 @@ Para acompanhar o andamento do projeto, a execução das tarefas e o status de d
 
 A equipe utilizará a plataforma Github para a construção do projeto e planejamento do código fonte. É também pelo Github que iremos criar os quadros de atividades específicas, roteiros abrangentes e checklists de versão.Na ferramenta Projects, a equipe realizará os fluxos de trabalho, personalizando-os conforme a necessidade. 
 
-> **Possíveis Ferramentas que  auxiliarão no gerenciamento**: 
+> **Possíveis Ferramentas que Auxiliarão no Gerenciamento**: 
 > - [Github](https://github.com/)
 > - [Visual Studio Code](https://code.visualstudio.com/)
 > - [React Native](https://callstack.github.io/react-native-paper/)
