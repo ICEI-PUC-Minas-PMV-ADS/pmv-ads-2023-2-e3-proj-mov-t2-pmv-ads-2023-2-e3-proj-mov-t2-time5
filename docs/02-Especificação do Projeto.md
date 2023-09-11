@@ -46,11 +46,13 @@ Atualmente embora venha ocorrendo uma popularização do uso de plataformas onli
 
 A proposta do aplicativo é criar uma conexão entre doador e donatário, a fim de facilitar a comunicação entre ambos de uma forma segura e transparente.
 
-### Processo 1 – NOME DO PROCESSO
+### Processo 1 – Funcionamento da Plataforma
 
 Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
 
-![Processo 1](img/02-bpmn-proc1.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/117127986/ce9190f3-bf40-45c3-8186-cbff97e832b2)
+
+
 
 ## Indicadores de Desempenho
 
