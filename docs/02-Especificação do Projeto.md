@@ -40,7 +40,7 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Atualmente embora venha ocorrendo uma popularização do uso de plataformas online para a busca e ofertas de doações, as aplicações existentes nesse nicho de mercado em sua maioria são voltadas para solicitação de donativos, com o desenvolvimento de uma aplicação móvel, o usuário é capaz de divulgar os itens disponíveis para doações ou solicitar, através de um simples acesso a esta ferramenta. 
 
 ### Descrição Geral da Proposta
 
