@@ -44,7 +44,7 @@ Atualmente embora venha ocorrendo uma popularização do uso de plataformas onli
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+A proposta do aplicativo é criar uma conexão entre doador e donatário, a fim de facilitar a comunicação entre ambos de uma forma segura e transparente.
 
 ### Processo 1 – NOME DO PROCESSO
 
