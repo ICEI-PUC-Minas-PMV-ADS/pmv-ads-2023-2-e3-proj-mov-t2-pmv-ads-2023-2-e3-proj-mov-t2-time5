@@ -56,6 +56,8 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em segu
 
 ## Indicadores de Desempenho
 
+Os indicadores de desempenho serão apresentados abaixo:
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/117127986/77da7eed-46d7-4a87-aeb8-8f4e71bf22c3)
 
 
