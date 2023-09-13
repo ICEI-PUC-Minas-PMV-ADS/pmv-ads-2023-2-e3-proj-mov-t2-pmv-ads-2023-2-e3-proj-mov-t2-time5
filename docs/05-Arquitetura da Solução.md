@@ -79,5 +79,5 @@ Nesse contexto, no nosso projeto Campanha do Quilo, vamos focar nas seguintes ca
 - *Testabilidade*: Avalia se fácil testar quando se faz alterações. Essa métrica será avaliada durante o desenvolvimento através de testes das novas implementações.
 
 6- **Portabilidade**  
-- *Capacidade de ser instaldo*: Avalia a facilidade de ser instaldo.
+- *Capacidade de ser instaldo*: Avalia a facilidade de ser instalado.
 
