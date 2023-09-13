@@ -59,6 +59,7 @@ A qualidade de software é um conjunto de características que as aplicações d
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/108501459/a8a364be-e06a-4d52-b679-efe8380cf017)
 
 Nesse contexto, no nosso projeto Campanha do Quilo, vamos focar nas seguintes características para nossa aplicação:
+
 1- **Funcionalidade**  
  - *Adequação* : Avalia se o software propõe-se a fazer o que é apropriado. Essa métrica será avaliada através da entrega dos requisitos funcionais propostos.
  - *Segurança de acesso* : Avalia se é possível o acesso não autorizado a dados. Essa métrica será avaliada através da implementação da autenticação.
