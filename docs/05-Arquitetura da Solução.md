@@ -40,7 +40,8 @@ As referências abaixo nos auxiliaram na geração do artefato “Esquema Relaci
 
 > - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/104168502/50e32dd8-0d5f-4167-9072-95d2494f8bf5)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/104168502/6c345092-bcf6-409f-bd76-59febd1e646a)
+
 
 
 ## Modelo Físico
