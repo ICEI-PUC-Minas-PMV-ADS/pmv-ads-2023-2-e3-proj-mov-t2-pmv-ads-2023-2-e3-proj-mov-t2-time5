@@ -28,7 +28,8 @@ As referências abaixo nos auxiliaram na geração odelo Entidade Relacionamento
 
 Utilizamos o Diagrama de Classes para geração das entidades, seus atributos e relacionamentos entre si.
 
-![Modelo Entidade Relacionamento - Campanha do Kilo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/104168502/3397ac7a-a239-4b97-b825-545a14faf195)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/104168502/d54697e6-a1c6-4e19-b755-2105e6e0716d)
+
 
 
 ## Esquema Relacional
