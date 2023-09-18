@@ -28,16 +28,18 @@ As referências abaixo nos auxiliaram na geração odelo Entidade Relacionamento
 
 Utilizamos o Diagrama de Classes para geração das entidades, seus atributos e relacionamentos entre si.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/104168502/59fd63a4-786f-4091-9e85-d9be46b6fa78)
+![Modelo Entidade Relacionamento - Campanha do Kilo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/104168502/3397ac7a-a239-4b97-b825-545a14faf195)
 
 
 ## Esquema Relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
+As referências abaixo nos auxiliaram na geração do artefato “Esquema Relacional”.
 
 > - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/104168502/59fd63a4-786f-4091-9e85-d9be46b6fa78)
 
 ## Modelo Físico
 
