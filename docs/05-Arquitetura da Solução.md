@@ -28,8 +28,7 @@ As referências abaixo nos auxiliaram na geração odelo Entidade Relacionamento
 
 Utilizamos o Diagrama de Classes para geração das entidades, seus atributos e relacionamentos entre si.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/104168502/d54697e6-a1c6-4e19-b755-2105e6e0716d)
-
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/104168502/4073a41b-66ad-45fb-83cf-d62bda8b1f67)
 
 
 ## Esquema Relacional
