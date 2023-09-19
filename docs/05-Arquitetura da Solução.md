@@ -59,6 +59,7 @@ Aqui estão descritas as tecnologias usadas para resolver o problema e implement
 > - Microsoft Visual Studio Code
 > - JavaScript
 > - Database Microsoft SqlServer
+> - Microsoft SQL Server Management Studio
 > - Figma
 > - https://app.diagrams.net/
 > - Astah
