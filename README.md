@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# APP Campanha do Quilo
 
 `Análise e Desenvolvimento de Sistemas`
 
