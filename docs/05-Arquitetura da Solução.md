@@ -58,6 +58,7 @@ Aqui estão descritas as tecnologias usadas para resolver o problema e implement
 > - Database Microsoft SqlServer
 > - Figma
 > - https://app.diagrams.net/
+> - Astah
 
 ## Hospedagem
 
