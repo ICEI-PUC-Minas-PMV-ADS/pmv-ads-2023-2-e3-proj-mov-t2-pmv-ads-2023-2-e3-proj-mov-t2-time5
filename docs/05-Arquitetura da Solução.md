@@ -10,7 +10,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória. O diagrama de classes foi construído a partir do diagrama de caso de Uso descrito no item 02 - Especificação do Projeto.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/104168502/2e88b4d8-8e3d-4c96-9b25-f6c8096faa2b)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/104168502/c35010a6-cd26-45f1-a0bb-fef86ab2fa07)
 
 Foi utilizado o aplicativo Astah com a licença de estudante.
 As referências abaixo foram utilizadas na geração do artefato “Diagrama de Classes”.
