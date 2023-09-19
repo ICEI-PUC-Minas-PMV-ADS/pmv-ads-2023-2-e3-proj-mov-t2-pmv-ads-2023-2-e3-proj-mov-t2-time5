@@ -50,9 +50,14 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Aqui estão descritas as tecnologias usadas para resolver o problema e implementar a solução. Todas as tecnologias envolvidas, linguagens utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+> - Microsoft Visual Studio
+> - Microsoft Visual Studio Code
+> - JavaScript
+> - Database Microsoft SqlServer
+> - Figma
+> - https://app.diagrams.net/
 
 ## Hospedagem
 
