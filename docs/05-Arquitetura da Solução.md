@@ -46,7 +46,10 @@ As referências abaixo nos auxiliaram na geração do artefato “Esquema Relaci
 
 ## Modelo Físico
 
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
+O arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados está incluído dentro da pasta src\bd, conforme figura abaixo:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/104168502/02258c64-443c-4718-a6e2-5319488d062d)
+
 
 ## Tecnologias Utilizadas
 
