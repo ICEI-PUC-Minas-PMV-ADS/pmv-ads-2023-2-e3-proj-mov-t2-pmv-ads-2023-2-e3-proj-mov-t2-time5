@@ -1,5 +1,6 @@
+import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image, } from 'react-native';
 import { TextInput } from 'react-native';
 
 export default function App() {
@@ -11,11 +12,11 @@ export default function App() {
       <Text>Senha</Text>
       <TextInput style={styles.container.border} />
       <Text style={styles.container.cadastro}>Não possui login? Clique Aqui</Text>
+      <Image style={styles.container.sizeHome} source={require('./assets/Donation.png')}></Image>
       <StatusBar style="auto" />
     </View>
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -24,6 +25,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     title:{fontSize:28},
     border: {borderWidth: 1, borderColor: '#d5d5d5', width: 100,},
-    cadastro: {fontSize:8}
+    cadastro: {fontSize:8},
+    sizeHome: {width: 300, height: 200,},
   },
 });
