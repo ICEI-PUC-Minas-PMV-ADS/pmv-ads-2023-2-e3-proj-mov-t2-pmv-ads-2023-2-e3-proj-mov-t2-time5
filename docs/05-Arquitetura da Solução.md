@@ -61,14 +61,11 @@ Aqui estão descritas as tecnologias usadas para resolver o problema e implement
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+Na hospedagem será feita por meio de um arquivo Json com utilização de LocalStorage.
 
 > **Links Úteis**:
 >
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+> - https://receitasdecodigo.com.br/front-end/local-storage-html5-com-json 
 
 ## Qualidade de Software
 
