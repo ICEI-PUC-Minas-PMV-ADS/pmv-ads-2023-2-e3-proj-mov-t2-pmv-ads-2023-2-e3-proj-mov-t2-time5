@@ -26,7 +26,6 @@ As tabelas abaixo identificam os requisitos funcionais e não-funcionais do proj
 |-|-|
 |Descrição do requisito |**RF-003:**  Permitir a comunicação entre doadores e receptores.
 |Descrição do teste:| PRINT da tela de contato. Será uma função do DOADOR iniciar a comunicação. Na aba de " informção dos receptores", terá o contato deles e a comunicação será feita em ambiente externo ao app. |
-|Caso de êxito: | |
 
 |Caso de Teste|CT-005|
 |-|-|
