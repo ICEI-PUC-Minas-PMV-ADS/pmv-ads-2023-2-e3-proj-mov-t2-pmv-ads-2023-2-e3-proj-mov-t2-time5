@@ -45,11 +45,7 @@ As tabelas abaixo identificam os requisitos funcionais e não-funcionais do proj
 |Descrição do teste:| GRAVAÇÃO da tela simulando uma doação ou um pedido de doação. |
 |Caso de êxito: | O usuário apenas consegue receber ou fazer uma doação se estiver logado no sistema.|
 
-|Caso de Teste|CT-008|
-|-|-|
-|Descrição do requisito |**RNF-010:**  O sistema deve confirmar o pedido ou doação.  |
-|Descrição do teste:|  |
-|Caso de êxito: |  |
+
 
 
 
