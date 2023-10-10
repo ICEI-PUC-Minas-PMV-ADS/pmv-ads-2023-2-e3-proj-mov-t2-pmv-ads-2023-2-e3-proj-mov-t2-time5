@@ -13,14 +13,14 @@ const AccessPage = () => {
       <View style={styles.container.box}>
         <Text style={styles.container.box}>Para Prosseguir com a Doação você precisa entrar ou se cadastrar.</Text>
       </View>
-      <View style={styles.container.buttons}>
+      <View style={styles.container.button1}>
         <Button 
           title="Cadastrar"
-          color="#FE7277"
+          color="#ff000933"
           onPress={() => Alert.alert('Button with adjusted color pressed')}
         />
       </View>
-      <View style={styles.container.buttons}>
+      <View style={styles.container.button2}>
         <Button 
           title="Entrar"
           color="#FE7277"
@@ -49,7 +49,18 @@ const styles = StyleSheet.create({
     border: {borderWidth: 1, borderColor: '#d5d5d5', width: 100,},
     cadastro: {fontSize:8},
     title:{fontSize:20, padding: 10, color:'#000'},
-    buttons:{
+    button1: {
+      marginTop: 20,
+      width: 180,
+      borderRadius: 18,
+      padding: 10,
+      color: '#FE7277',
+      borderColor: '#ff000933',
+      backgroundColor: '#ff000933',
+      borderTopLeftRadius: 6,
+      borderBottomRightRadius: 6
+    },
+    button2: {
       marginTop: 20,
       width: 180,
       borderRadius: 18,
@@ -57,8 +68,8 @@ const styles = StyleSheet.create({
       backgroundColor: '#FE7277',
       borderTopLeftRadius: 6,
       borderBottomRightRadius: 6
-    }
+    },
    },
-});
+})
 
 export default AccessPage;

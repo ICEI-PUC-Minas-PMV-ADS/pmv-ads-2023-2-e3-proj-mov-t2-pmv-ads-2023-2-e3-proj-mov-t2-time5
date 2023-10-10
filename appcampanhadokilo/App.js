@@ -10,7 +10,7 @@ import ReceptorTextPage from './src/components/pages/ReceptorTextPage'
 const App = () => {
 
 return(
-  <ReceptorTextPage />
+  <AccessPage />
 );
 
 }
