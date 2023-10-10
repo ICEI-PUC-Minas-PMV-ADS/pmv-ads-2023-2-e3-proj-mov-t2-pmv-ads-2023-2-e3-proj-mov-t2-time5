@@ -16,3 +16,8 @@ Relatório com as evidências dos testes de software realizados no sistema:
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/95951195/72c9a292-1dc0-4344-8130-eefcd962271f" alt="Imagem 2">
 </div>
 
+## RNF-002: O sistema ser compatível com versões de dispositivos móveis
+### Resultado: Sucesso!
+![Imagem 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/95951195/a9016f2a-f4f8-4293-9e7f-3e9e2b3703e8) ![Imagem 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/95951195/0565d33e-576e-4a1a-9843-d413da67f390)
+
+
