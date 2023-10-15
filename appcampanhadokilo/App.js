@@ -7,6 +7,7 @@ import LoginPage from './src/components/pages/LoginPage'
 import CadastroDoadorPage from './src/components/pages/CadastroDoadorPage'
 import TestPage from './src/components/pages/TestPage'
 import EnderecoEntregaPage from './src/components/pages/EnderecoEntregaPage'
+import DoacaoFinalizadaPage from './src/components/pages/DoacaoFinalizadaPage'
 
 const App = () => {
 
