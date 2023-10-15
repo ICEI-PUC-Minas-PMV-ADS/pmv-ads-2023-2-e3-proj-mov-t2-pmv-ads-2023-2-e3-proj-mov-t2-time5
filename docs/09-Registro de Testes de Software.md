@@ -20,4 +20,7 @@ Relatório com as evidências dos testes de software realizados no sistema:
 ### Resultado: Sucesso!
 ![Imagem 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/95951195/a9016f2a-f4f8-4293-9e7f-3e9e2b3703e8) ![Imagem 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/95951195/0565d33e-576e-4a1a-9843-d413da67f390)
 
-
+## RF-003: Permitir a comunicação entre doadores e receptores
+### Resultado: Sucesso na criação da parte visual da comunicação entre doadores e receptores
+##### Foi criado a página de localização
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/95951195/f5861715-88a6-42cf-8b58-12abe980aab9)
