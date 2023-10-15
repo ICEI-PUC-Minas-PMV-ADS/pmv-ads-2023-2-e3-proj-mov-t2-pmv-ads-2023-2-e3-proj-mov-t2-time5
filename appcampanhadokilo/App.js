@@ -6,11 +6,12 @@ import AccessPage from './src/components/pages/AccessPage'
 import LoginPage from './src/components/pages/LoginPage'
 import CadastroDoadorPage from './src/components/pages/CadastroDoadorPage'
 import TestPage from './src/components/pages/TestPage'
+import EnderecoEntregaPage from './src/components/pages/EnderecoEntregaPage'
 
 const App = () => {
 
 return(
-  <CadastroDoadorPage />
+  <EnderecoEntregaPage />
 );
 
 }
