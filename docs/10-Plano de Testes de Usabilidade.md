@@ -8,6 +8,7 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/117127986/a02b80f0-1995-43f1-b36f-be7378cab251)
 
+Para esta etapa do projeto, os testes serão realizados nas principais funcionalidades do sistema: Cadastro do doador, login, cadastro de doações, buscar doações  cadastrada.
 
 
 
