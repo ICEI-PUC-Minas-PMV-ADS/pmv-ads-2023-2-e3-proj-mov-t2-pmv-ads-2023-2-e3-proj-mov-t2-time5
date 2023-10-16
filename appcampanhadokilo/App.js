@@ -5,12 +5,14 @@ import AboutUsPage from './src/components/pages/AboutUsPage'
 import AccessPage from './src/components/pages/AccessPage'
 import LoginPage from './src/components/pages/LoginPage'
 import CadastroDoadorPage from './src/components/pages/CadastroDoadorPage'
-import ReceptorTextPage from './src/components/pages/ReceptorTextPage'
+import TestPage from './src/components/pages/TestPage'
+import EnderecoEntregaPage from './src/components/pages/EnderecoEntregaPage'
+import DoacaoFinalizadaPage from './src/components/pages/DoacaoFinalizadaPage'
 
 const App = () => {
 
 return(
-  <AccessPage />
+  <EnderecoEntregaPage />
 );
 
 }
