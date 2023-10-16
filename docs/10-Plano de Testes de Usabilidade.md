@@ -18,6 +18,29 @@ Para esta etapa do projeto, os testes serão realizados nas principais funcional
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/117127986/6cc539b7-ba50-4a49-9c58-72bffaa7b5c2)
 
+# Interpretação e Consolidação dos dados
+
+Após os testes será realizado a consolidação e interpretação dos resultados.
+
+# Relato dos Resultados
+
+Após a interpretação e consolidação dos resultados será relatado a performance e a opinião dos participantes.
+
+# Objetivo
+
+Fazer melhorias na plataforma proporcionando uma melhor experiência ao usuário. O que será mensurado no teste:
+
+- A qualidade na navegação
+- Satisfação do usuário
+
+# Ferramentas de Testes
+
+Para realizar os testes serão utilizados:
+
+- Celulares Android e iOS
+
+
+
 
 
 
