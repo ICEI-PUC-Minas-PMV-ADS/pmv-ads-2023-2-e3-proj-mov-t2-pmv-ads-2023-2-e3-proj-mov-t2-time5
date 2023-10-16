@@ -6,5 +6,8 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/117127986/08ff809b-ac6f-4ffa-b6f7-30ff2fe2fccd)
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/117127986/a02b80f0-1995-43f1-b36f-be7378cab251)
+
+
 
 
