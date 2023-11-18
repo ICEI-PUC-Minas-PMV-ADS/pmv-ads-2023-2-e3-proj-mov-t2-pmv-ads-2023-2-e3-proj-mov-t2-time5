@@ -108,14 +108,14 @@
 | Usuário 5 | 10   | - |
 
 **Recomendaria nossa aplicação?**
-| **Usuário** | **Avaliação (0 - 10)** | **Comentários e observações** |
+| **Usuário** | **Avaliação** | **Comentários e observações** |
 | --- 	      | --- 	    | - |
-| Usuário 1	  | 9     | - |
-| Usuário 2   | 10     | - |
-| Usuário 3 | 10       | - |
-| Usuário 4  | 10     | - |
-| Usuário 5 | 10   | - |
-| Usuário 6	  | 10  | - |
+| Usuário 1	  | SIM     | - |
+| Usuário 2   | SIM     | - |
+| Usuário 3 | SIM       | - |
+| Usuário 4  | SIM     | - |
+| Usuário 5 | SIM   | - |
+| Usuário 6	  | SIM  | - |
 
 **Algum problema na aplicação foi observado?**
 | **Usuário** | **Comentários e observações** |
