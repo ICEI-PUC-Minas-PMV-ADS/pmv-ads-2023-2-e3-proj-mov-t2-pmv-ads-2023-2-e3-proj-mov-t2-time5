@@ -115,7 +115,7 @@
 | Usuário 3 | 10       | - |
 | Usuário 4  | 10     | - |
 | Usuário 5 | 10   | - |
-| Usuário 6	  | 10    | 0     | - |
+| Usuário 6	  | 10  | - |
 
 **Algum problema na aplicação foi observado?**
 | **Usuário** | **Comentários e observações** |
