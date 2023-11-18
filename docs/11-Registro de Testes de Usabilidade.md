@@ -1,7 +1,7 @@
 # Registro de Testes de Usabilidade
 
 > **Links da Pesquisa**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+> - https://docs.google.com/forms/d/e/1FAIpQLSd5US35TEH1C39XsgffB6e7Q86bWAOiJLClvn6ssXtqW2bMeQ/viewform?usp=sf_link
 
 **Perfil dos Usuários**
 
