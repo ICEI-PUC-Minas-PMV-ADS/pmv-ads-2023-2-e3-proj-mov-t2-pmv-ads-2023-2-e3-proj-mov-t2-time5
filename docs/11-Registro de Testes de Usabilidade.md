@@ -14,7 +14,11 @@
 | Receptor 5	    | 62 anos   | Ensino fundamental incompleto | Pedreiro |
 | Receptor 6	    | 62 anos   | Ensino fundamental incompleto | Dona de Casa|
 
+
+
 - Os resultados obtidos nos testes foram registrados em tabelas, conforme abaixo:
+
+
 
 **Tarefa 1: Realizar cadastro (de doador e de receptor) na plataforma**
 | **Usuário** | **Tempo** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
@@ -35,7 +39,6 @@
 | Usuário 4	  | 00:29     | 0              | -                        |  -  |
 | Usuário 5	  | 00:35     | 0              | -                        | - |
 | Usuário 6	  | 00:49     | 1              | 1                        | Digitou senha incorreta |
-
 
 **Tarefa 3: Cadastrar uma doação - Doadores**
 | **Usuário** | **Tempo** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
@@ -58,9 +61,7 @@
 | Usuário 2   | 01:00     | 0              | -                        | -  |
 | Usuário 3	  | 02:30    | 0              | -                        |  - |
 
-
-
-**Tarefa 6: Visualização e/ou correção do texto dos motivos que levaram a pessoas a necessitar da doação - Receptores **
+**Tarefa 6: Visualização e/ou correção do texto dos motivos que levaram a pessoas a necessitar da doação - Receptores**
 | **Usuário** | **Tempo** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	      | --- 	    | --- 	         | ---                      | - |
 | Usuário 4	  | 05:50     | 0              | -                        | - |
@@ -71,50 +72,49 @@
 | **Usuário** | **Nível de dificuldade no preenchimento (0 - 10)** | **Comentários e observações** |
 | --- 	      | --- 	    | - |
 | Usuário 1	  | 0     | - |
-| Usuário 2   | 0     | 0     | A doação foi realizada de forma rápida|
-| Usuário 3	  | 0     | 0     | Fácil de navegar |
-| Usuário 4	  | 3     | 0     | - |
-| Usuário 5	  | 4     | 0     | O preenchimento dos dados é bastante demorado |
-| Usuário 6	  | 5     | 0     | O texto de necessidade foi de difícil preenchimento |
+| Usuário 2   | 0  | A doação foi realizada de forma rápida|
+| Usuário 3	  | 0    | Fácil de navegar|
+| Usuário 4	  | 3    | - |
+| Usuário 5	  | 4   | O preenchimento dos dados é bastante demorado|
+| Usuário 6	  | 5    | O texto de necessidade foi de difícil preenchimento|
 
 **Escala de Insatisfação**
 | **Usuário** | **Nível de Insatisfação (0 - 10)** | **Comentários e observações** |
 | --- 	      | --- 	    | - |
 | Usuário 1	  | 0     | - |
-| Usuário 2   | 0     | 0     | - |
-| Usuário 3	  | 0     | 0     | - |
-| Usuário 4	  | 3     | 0     | - |
-| Usuário 5	  | 4     | 4    | O preenchimento dos dados poderia ser facilitado |
-| Usuário 6	  | 5     | 0     | - |
+| Usuário 2   | 0     | - |
+| Usuário 3 | 0     | - |
+| Usuário 4 | 3     | - |
+| Usuário 5  | 4  | O preenchimento dos dados poderia ser facilitado|
+| Usuário 6  | 0 | - |
 
 **Em geral como você avalia a aplicação?**
 | **Usuário** | **Avaliação (0 - 10)** | **Comentários e observações** |
 | --- 	      | --- 	    | - |
 | Usuário 1	  | 9     | - |
-| Usuário 2   | 0     | 10     | - |
-| Usuário 3	  | 10     | 0     | - |
-| Usuário 4	  | 10     | 0     | As doações são de ótima qualidade e o recebimento é efetivo |
-| Usuário 5	  | 8   | 4    | O preenchimento dos dados poderia ser facilitado |
-| Usuário 6	  | 9    | 0     | - |
+| Usuário 2   | 10     | - |
+| Usuário 3| 10     | - |
+| Usuário 4 | 10   | As doações são de ótima qualidade e o recebimento é efetivo|
+| Usuário 5| 8  | O preenchimento dos dados poderia ser facilitado|
+| Usuário 6| 9    | - |
 
 **A navegação na aplicação foi boa?**
 | **Usuário** | **Avaliação (0 - 10)** | **Comentários e observações** |
 | --- 	      | --- 	    | - |
 | Usuário 1	  | 9     | - |
-| Usuário 2   | 0     | 10     | - |
-| Usuário 3	  | 10     | 0     | - |
-| Usuário 4	  | 10     | 0     | - |
-| Usuário 5	  | 10   | 4    | - |
-| Usuário 6	  | 10    | 0     | - |
+| Usuário 2   | 10     | - |
+| Usuário 3 | 10       | - |
+| Usuário 4  | 10     | - |
+| Usuário 5 | 10   | - |
 
 **Recomendaria nossa aplicação?**
 | **Usuário** | **Avaliação (0 - 10)** | **Comentários e observações** |
 | --- 	      | --- 	    | - |
 | Usuário 1	  | 9     | - |
-| Usuário 2   | 0     | 10     | - |
-| Usuário 3	  | 10     | 0     | - |
-| Usuário 4	  | 10     | 0     | - |
-| Usuário 5	  | 10   | 4    | - |
+| Usuário 2   | 10     | - |
+| Usuário 3 | 10       | - |
+| Usuário 4  | 10     | - |
+| Usuário 5 | 10   | - |
 | Usuário 6	  | 10    | 0     | - |
 
 **Algum problema na aplicação foi observado?**
