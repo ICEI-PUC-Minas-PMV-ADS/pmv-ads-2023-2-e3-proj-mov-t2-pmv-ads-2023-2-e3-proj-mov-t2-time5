@@ -24,3 +24,9 @@ Relatório com as evidências dos testes de software realizados no sistema:
 ### Resultado: Sucesso na criação da parte visual da comunicação entre doadores e receptores
 ##### Foi criado a página de localização
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/95951195/f5861715-88a6-42cf-8b58-12abe980aab9)
+
+## RNF-002: O sistema ser compatível com versões de dispositivos móveis.
+### Resultado: Sucesso!
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e3-proj-mov-t2-pmv-ads-2023-2-e3-proj-mov-t2-time5/assets/95951195/bde7e56a-d034-44b1-9d65-62e6c47945c8
+
+
