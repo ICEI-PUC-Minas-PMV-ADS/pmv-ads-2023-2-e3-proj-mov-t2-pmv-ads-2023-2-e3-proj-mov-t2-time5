@@ -51,11 +51,11 @@ const SobreNos = () => {
 
   return (
     <SafeAreaProvider>
-    <Container>
     <Appbar.Header>
       <Appbar.Content title={'Campanha do Quilo'} />
       <Appbar.Action icon={'magnify'} onPress={()=> {}} />
     </Appbar.Header>
+    <Container>
       <Body>
         <Text style={styles.menu}>Doações Disponíveis</Text>
         <FlatList
