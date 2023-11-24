@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "appcampanhadokilo",
-    "slug": "snack-9d4ce94e-64ac-4976-a131-f2e4a4baede1",
+    "name": "campanha",
+    "slug": "campanha",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

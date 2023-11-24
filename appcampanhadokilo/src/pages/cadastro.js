@@ -1,56 +1,52 @@
 import React from 'react';
-import { SafeAreaView, StyleSheet, Text, View, StatusBar, Button, TextInput, Linking} from 'react-native';
+import { SafeAreaView, StyleSheet, Text, View, Button, Alert, TextInput} from 'react-native';
+import { Appbar } from 'react-native-paper';
+import { SafeAreaProvider  } from 'react-native-safe-area-context';
+import Container from '../components/container';
+import Body from '../components/body';
 
 const CadastroDoadorPage = () => {
 
   return(
-
- <View style={styles.container}>
-      <StatusBar style="auto" />
-      <Text style={styles.container.title}>Cadastrar como Doador</Text>
+    <SafeAreaProvider>
+    <Container>
+    <Appbar.Header>
+      <Appbar.Content title={'Campanha do Quilo'} />
+    </Appbar.Header>
+      <Body>
+      <Text style={styles.container.title}>NOVO CADASTRO</Text>
       <SafeAreaView>
         <TextInput 
-          label="Nome"
-          style={styles.container.input}
-          placeholder="Nome Completo"
-          keyboardType="text"
+        style={styles.container.input}
+        placeholder="Nome Completo"
         />
         <TextInput
-          label="Bairro"
           style={styles.container.input}
           placeholder="Bairro"
-          keyboardType="text"
         />
         <TextInput
-          label="Cidade"
           style={styles.container.input}
           placeholder="Cidade"
-          keyboardType="text"
         />
         <TextInput
-          label="Estado"
           style={styles.container.input}
           placeholder="Estado"
-          keyboardType="text"
         />        
         <TextInput
-          label="Contato"
           style={styles.container.input}
           placeholder="Contato"
-          keyboardType="text"
         />
         <TextInput
-          label="Senha"
-          style={styles.container.input}
-          placeholder="Senha"
-          keyboardType="password"
+        secureTextEntry={true}
+        style={styles.container.input}
+        placeholder="Senha"
         />
     </SafeAreaView>
       <View style={styles.container.buttons}>
         <Button 
           title="Cadastrar"
           color="#FE7277"
-          onPress={() => Alert.alert('Button with adjusted color pressed')}
+          onPress={() => Alert.alert('Cadastro Efetuado com Sucesso!')}
         />
       </View>
       <Text style={styles.container.question}>Já tem uma conta?</Text>
@@ -59,7 +55,9 @@ const CadastroDoadorPage = () => {
         }}>
         Entrar
       </Text>
- </View>
+ </Body>
+ </Container>
+ </SafeAreaProvider>
   );
 }
 const styles = StyleSheet.create({
@@ -69,9 +67,6 @@ const styles = StyleSheet.create({
       justifyContent:'center',
       color: '#6D7E92',
       },
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
     border: {borderWidth: 1, borderColor: '#d5d5d5', width: 100,},
     cadastro: {fontSize:8},
     title:{fontSize:18, padding: 10, color:'#6D7E92'},
@@ -85,13 +80,12 @@ const styles = StyleSheet.create({
       borderBottomRightRadius: 6
     },
     input: {
-      height: 40,
-      width: 280,
-      margin: 12,
-      borderWidth: 1,
-      padding: 10,
-      color:'#00C2FF',
-      borderColor:'#00C2FF',
+    backgroundColor:'#fff',
+    height: 40,
+    width: 280,
+    margin: 12,
+    borderWidth: 1,
+    borderColor:'#00C2FF',
   },
     login:{color:'#FE7277', fontSize:14}
    },
