@@ -3,7 +3,7 @@ import { ImageBackground, StyleSheet, View, Alert } from 'react-native';
 import { Button, Text } from 'react-native-paper';
 import { Appbar } from 'react-native-paper';
 import { SafeAreaProvider  } from 'react-native-safe-area-context';
-import Container from '../components/container
+import Container from '../components/container';
 import Body from '../components/body';
 
 const Cadastro = () => {
