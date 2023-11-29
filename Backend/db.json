@@ -1,3 +1,30 @@
 {
-    "users": []
+    "users": [],
+    "doacao": [
+        {
+            "id": 1,
+            "tipo": 0,
+            "user": "John",
+            "cidade": "Belo Horizonte",
+            "bairro": "Sagrada Familia",
+            "status": 0
+        },
+        {
+            "id": 2,
+            "tipo": 0,
+            "user": "Shakira",
+            "cidade": "São Paulo",
+            "bairro": "Baronesa",
+            "status": 0
+        },
+        {
+            "id": 3,
+            "tipo": 1,
+            "user": "astormg",
+            "cidade": "Betim",
+            "bairro": "Felicidade",
+            "status": 1
+        }
+    ]
+
 }

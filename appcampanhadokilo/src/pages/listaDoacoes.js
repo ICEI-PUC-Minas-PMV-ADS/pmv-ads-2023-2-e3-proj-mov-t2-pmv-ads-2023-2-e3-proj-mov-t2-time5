@@ -1,51 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { StyleSheet, FlatList, Alert } from 'react-native';
 import Container from '../components/container';
 import Body from '../components/body';
 import { Appbar, Text, List, FAB} from 'react-native-paper';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { getDoacoes } from '../services/GastosServicesBb';
 import { useNavigation } from '@react-navigation/native';
-
-const DATA = [
-    {
-        id: 1,
-        data: '15/08/2023',
-        tipo: 0,
-        user: 'John',
-        cidade: 'Belo Horizonte',
-        bairro: 'Sagrada Familia',
-        status: '1',
-    },
-    {
-        id: 2,
-        data: '19/08/2023',
-        tipo: 1,
-        user: 'astormg',
-        cidade: 'Belo Horizonte',
-        bairro: 'Luxemburgo',
-        status: '0',
-      },
-      {
-        id: 3,
-        data: '29/08/2023',
-        tipo: 0,
-        user: 'astormg',
-        cidade: 'Contagem',
-        bairro: 'Eldorado',
-        status: '0',
-      }
-  ];
+import { useIsFocused } from '@react-navigation/native';
 
 const SobreNos = () => {
 
     const navigation = useNavigation();
+    const isFocused = useIsFocused();
+
+    const [itens, setItens] = useState([]);
+
+    useEffect(() => {
+      getDoacoes().then((doacao)=>{
+        setItens(doacao);
+      });
+    }, [isFocused])
 
     const Item = ({item}) => (
         <List.Item
         title= {item.tipo == 0 ? "Roupas" : "Alimentos"}
-        description={'Doado dia: ' + item.data}
+        description={'Doado por: ' + item.user}
         left={props => <List.Icon {...props} icon={ item.tipo == 0 ? 'human' : 'food'} />}
         right={props => <Text style={{alignSelf:'center', textAlign: 'right'}}> {item.cidade} {'\n'} {item.bairro} </Text>}
+        onPress={() => navigation.navigate('EDoacao', {item})}
       />
       );
 
@@ -60,7 +42,7 @@ const SobreNos = () => {
         <Text style={styles.menu}>Doações Disponíveis</Text>
         <FlatList
         style={{width:'90%'}}
-        data={DATA}
+        data={itens}
         renderItem={Item}
         keyExtractor={item => item.id}
       />
