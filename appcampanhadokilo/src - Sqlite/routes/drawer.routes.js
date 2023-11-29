@@ -3,7 +3,7 @@ import { Feather } from '@expo/vector-icons';
 
 import TabRoutes from './tab.routes';
 import StackRoutes from './stack.routes';
-import Lista from '../pages/listaDoacoes';
+import Login from '../pages/login';
 
 const Drawer = createDrawerNavigator();
 

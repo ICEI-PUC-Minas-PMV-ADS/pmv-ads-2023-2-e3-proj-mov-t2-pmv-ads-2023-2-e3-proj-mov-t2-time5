@@ -34,7 +34,7 @@ const Cadastro = () => {
           buttonColor="#FE7277"
           textColor={'black'}
           mode="outlined"
-          onPress={() => navigation.navigate('ECadastro')}>
+          onPress={() => Alert.alert('Preste Atenção!', 'Teste do botão Cadastrar')}>
           Cadastrar
         </Button>
         <Button
@@ -43,7 +43,7 @@ const Cadastro = () => {
           buttonColor="#FE7277"
           textColor={'black'}
           mode="outlined"
-          onPress={() => navigation.navigate('Acesso')}>
+          onPress={() => navigation.navigate('ELogin')}>
           Entrar
         </Button>
       </Body>

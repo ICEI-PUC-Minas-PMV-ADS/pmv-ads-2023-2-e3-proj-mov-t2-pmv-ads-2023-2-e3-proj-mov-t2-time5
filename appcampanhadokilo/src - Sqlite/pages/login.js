@@ -5,6 +5,7 @@ import { SafeAreaProvider  } from 'react-native-safe-area-context';
 import Container from '../components/container';
 import Body from '../components/body';
 
+
 const LoginPage = () => {
 
   return(
@@ -17,14 +18,24 @@ const LoginPage = () => {
       <Text style={styles.title}>Entrar via Login</Text>
       <View style={styles.access}>
         <Text style={styles.label}>Login</Text>
-        <TextInput style={styles.input} />
+         <TextInput 
+          label="Login"
+          //value={login}
+          //onChangeText={(text) => setLogin(text)}
+          style={styles.input}
+          left={<TextInput.Icon name="account" />}
+
+        />
         <Text style={styles.label}>Senha</Text>
         <TextInput
-            style={styles.input}
-            secureTextEntry={true}
+          secureTextEntry={true}
+          //label="Password"
+          //value={password}
+          //onChangeText={(text) => setPassword(text)}
+          style={styles.input}          
+          left={<TextInput.Icon name="key" />}
         />
       </View>
-      <Text style={styles.password}>Esqueceu sua senha?</Text>
        <View style={styles.buttons}>
         <Button 
           title="Entrar"

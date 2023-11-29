@@ -2,13 +2,10 @@ import React, { useState } from 'react';
 import { SafeAreaView, StyleSheet, Text, View, Button, Alert, TextInput} from 'react-native';
 import { Appbar } from 'react-native-paper';
 import { SafeAreaProvider  } from 'react-native-safe-area-context';
-import { useNavigation } from '@react-navigation/native'
 import Container from '../components/container';
 import Body from '../components/body';
 
 const CadastroDoadorPage = () => {
-
-  const navigation = useNavigation();
 
   const [login, setLogin] = useState('astormg')
   const [password, setPassword] = useState('astormg')
@@ -16,11 +13,6 @@ const CadastroDoadorPage = () => {
   const [cidade, setCidade] = useState('Belo Horizonte')
   const [estado, setEstado] = useState('Minas Gerais')
   const [contato, setContato] = useState('3199998877')
-
-  handleCadastrar= () => {
-    Alert.alert('Cadastrado!')
-    navigation.goBack()
-  }
 
   return(
     <SafeAreaProvider>
@@ -61,9 +53,14 @@ const CadastroDoadorPage = () => {
         <Button 
           title="Cadastrar"
           color="#FE7277"
-          onPress={() => handleCadastrar()}
+          onPress={() => Alert.alert('Cadastro Efetuado com Sucesso!')}
         />
       </View>
+      <Text style={styles.container.login}
+        onPress={() => { () => Alert.alert('Login efetuado com Sucesso')
+        }}>
+        Entrar
+      </Text>
  </Body>
  </Container>
  </SafeAreaProvider>

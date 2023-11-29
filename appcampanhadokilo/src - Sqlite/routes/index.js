@@ -1,10 +1,11 @@
 import { NavigationContainer } from '@react-navigation/native';
 import Drawer from './drawer.routes';
+import AuthRoutes from './auth.routes';
 
 function Routes() {
     return (
         <NavigationContainer>
-            <Drawer/>
+            <AuthRoutes/>
         </NavigationContainer>
     )
 };
