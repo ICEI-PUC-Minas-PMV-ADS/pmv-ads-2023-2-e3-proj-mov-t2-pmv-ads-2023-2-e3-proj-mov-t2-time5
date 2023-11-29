@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
-import { StyleSheet, Alert } from 'react-native';
+import { StyleSheet } from 'react-native';
 import { TextInput, Button, Headline } from 'react-native-paper';
 import Container from '../components/container';
 import Body from '../components/body';
 import { useNavigation } from '@react-navigation/native'
-
+import { useUser } from '../contexts/UserContext'
 
 const Acesso = () => {
 
 const navigation = useNavigation();
-  const [email, setEmail] = useState('astormg');
-  const [password, setPassword] = useState('astormg');
+const {setSigned} = useUser();
+
+const [email, setEmail] = useState('astormg');
+const [password, setPassword] = useState('astormg');
 
   return (
     <Container>
@@ -36,7 +38,7 @@ const navigation = useNavigation();
           buttonColor="#FE7277"
           textColor={'black'}
           mode="outlined"
-          onPress={() => Alert.alert('Login')}>
+          onPress={() => setSigned(true)}>
           Entrar
         </Button>
         <Button

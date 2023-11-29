@@ -6,11 +6,12 @@ import { SafeAreaProvider  } from 'react-native-safe-area-context';
 import Container from '../components/container';
 import Body from '../components/body';
 import {useNavigation} from '@react-navigation/native'
+import { useUser } from '../contexts/UserContext'
 
 const Cadastro = () => {
 
   const navigation = useNavigation();
-
+  const {setSigned} = useUser();
   return (
     <SafeAreaProvider>
     <Appbar.Header>
