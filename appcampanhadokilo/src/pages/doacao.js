@@ -1,17 +1,21 @@
 import { React, useState, useEffect } from "react";
-import { Text, View, Image, StyleSheet} from "react-native";
+import { Text, View, Image, StyleSheet, Alert} from "react-native";
 import { Appbar, Button, RadioButton } from 'react-native-paper';
 import { SafeAreaProvider  } from 'react-native-safe-area-context';
 import Container from '../components/container';
 import Body from '../components/body';
 import { useNavigation } from '@react-navigation/native';
 import { insertDoacao, updateDoacao, deleteDoacao } from "../services/GastosServicesBb";
+import { useUser } from "../contexts/UserContext";
 
 const Doacao = ({route}) => {
 
   const navigation = useNavigation();
   const { item } = route.params? route.params : {};
   const [checked, setChecked] = useState();
+  const { bairro } = useUser();
+  const { cidade } = useUser();
+  const { name } = useUser();
 
   useEffect(() => {
     if ( item ){
@@ -24,9 +28,9 @@ const Doacao = ({route}) => {
       updateDoacao(
         {
           tipo: checked,
-          user: 'general',
-          cidade: 'SambariLove',
-          bairro: 'Emoção',
+          user: name,
+          cidade: cidade,
+          bairro: bairro,
           status: 0,
           id: item.id
         }
@@ -35,14 +39,18 @@ const Doacao = ({route}) => {
     insertDoacao(
       {
         tipo: checked,
-        user: 'general',
-        cidade: 'Ubatuba',
-        bairro: 'Felicidade',
-        status: 0
+        user: name,
+        cidade: cidade,
+        bairro: bairro,
+        status: 0,
       }
     ).then();
   };
   navigation.goBack();
+}
+
+handleSolicitar = () => {
+    Alert.alert('CONTATO PARA DOAÇÃO', 'O contato do doador: é: ' + item.user)
 }
 
 handleExcluir = () => {
@@ -100,6 +108,16 @@ handleExcluir = () => {
   onPress={() => handleSalvar()}>
       Salvar
   </Button>
+  <Button
+  disabled={ item ? false : true}
+  style={{ marginTop: 30 }}
+  buttonColor='#8181FA'
+  textColor="#000000"
+  mode="contained"
+  onPress={() => handleSolicitar()}>
+      Solicitar Doação
+  </Button>
+
 </Body>
 </Container>
 </SafeAreaProvider>

@@ -1,30 +1,74 @@
 {
-    "users": [],
-    "campanha": [
-        {
-            "id": 1,
-            "tipo": 0,
-            "user": "John",
-            "cidade": "Belo Horizonte",
-            "bairro": "Sagrada Familia",
-            "status": 0
-        },
-        {
-            "id": 2,
-            "tipo": 0,
-            "user": "Shakira",
-            "cidade": "São Paulo",
-            "bairro": "Baronesa",
-            "status": 0
-        },
-        {
-            "id": 3,
-            "tipo": 1,
-            "user": "astormg",
-            "cidade": "Betim",
-            "bairro": "Felicidade",
-            "status": 1
-        }
-    ]
-
+  "users": [
+    {
+      "email": "astormg@gmail.com",
+      "password": "$2a$10$8vwRI.9SmDECSacqjSpKCeVYPpHuoEYWfHrErokECrXAluJu5gHMC",
+      "name": "Astor Cézar de Souza Almeida",
+      "bairro": "Horto",
+      "cidade": "Belo Horizonte",
+      "estado": "Minas Gerais",
+      "contato": "3199998877",
+      "id": 1
+    },
+    {
+      "email": "astormg@hotmail.com",
+      "password": "$2a$10$6YNzdIpdbo05sOEYyQmJkurtumUhMhuHJdIfFJjTeBcpaiu6XhfFi",
+      "name": "Astor Cézar de Souza Almeida",
+      "bairro": "Horto",
+      "cidade": "Belo Horizonte",
+      "estado": "Minas Gerais",
+      "contato": "3199998877",
+      "id": 2
+    },
+    {
+      "email": "astorbh@hotmail.com",
+      "password": "$2a$10$NCzQtRxs8yYVR3nLGUK9au4ltodMFqSbmPHxJlOiOeiWRzIiHLORq",
+      "name": "Astor Cézar de Souza Almeida",
+      "bairro": "Horto",
+      "cidade": "Belo Horizonte",
+      "estado": "Minas Gerais",
+      "contato": "3199998877",
+      "id": 3
+    },
+    {
+      "email": "astor@gmail.com",
+      "password": "$2a$10$DvndYfAIiIyoodUinmRJSuHcaDpqN/kk.u5UUBZZjG2dDWQLJp.ee",
+      "name": "Astor Cézar de Souza Almeida",
+      "bairro": "Horto",
+      "cidade": "Belo Horizonte",
+      "estado": "Minas Gerais",
+      "contato": "3199998877",
+      "id": 4
+    },
+    {
+      "email": "18@gmail.com",
+      "password": "$2a$10$JJ.cH6JIPgrXGl3k7jkA9O2LLWrbXdcMcay.JAnDfJDYc0J4Ey6xK",
+      "name": "Astor Cézar de Souza Almeida",
+      "bairro": "Horto",
+      "cidade": "Belo Horizonte",
+      "estado": "Minas Gerais",
+      "contato": "3199998877",
+      "id": 5
+    },
+    {
+      "email": "99@gmail.com",
+      "password": "$2a$10$WPi4JE4r0EaN5SK89KLTS.rI0S1m3pPIVJTaa3EzEFBp6.uX9ucIu",
+      "name": "Astor",
+      "bairro": "Horto",
+      "cidade": "Belo Horizonte",
+      "estado": "Minas Gerais",
+      "contato": "3199998877",
+      "id": 6
+    },
+    {
+      "email": "100@gmail.com",
+      "password": "$2a$10$Ac1IP2ZUKJHLDM0JMLkUtu2asQZpeDXm.97r5G1nRmeDo5TbEHnwa",
+      "name": "Astor",
+      "bairro": "Horto",
+      "cidade": "Belo Horizonte",
+      "estado": "Minas Gerais",
+      "contato": "3199998877",
+      "id": 7
+    }
+  ]
 }

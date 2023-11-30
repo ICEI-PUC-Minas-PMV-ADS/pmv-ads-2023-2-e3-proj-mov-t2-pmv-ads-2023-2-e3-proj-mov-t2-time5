@@ -6,11 +6,9 @@ import { SafeAreaProvider  } from 'react-native-safe-area-context';
 import Container from '../components/container';
 import Body from '../components/body';
 import {useNavigation} from '@react-navigation/native'
-import { useUser } from '../contexts/UserContext'
 
 const Cadastro = () => {
 
-const { name } = useUser();
   const navigation = useNavigation();
   return (
     <SafeAreaProvider>
@@ -25,10 +23,28 @@ const { name } = useUser();
           blurRadius={1}
         />
         <View style={styles.box}>
+          <Text style={styles.title}>Entre ou Cadastre-se </Text>
           <Text style={styles.texto}>
-            SEJA BEM VINDA(O) AO MUNDO DA CARIDADE, {name}
+            Para Prosseguir você precisa entrar ou se cadastrar.
           </Text>
         </View>
+        <Button
+          style={styles.box}
+          buttonColor="#FE7277"
+          textColor={'black'}
+          mode="outlined"
+          onPress={() => navigation.navigate('ECadastro')}>
+          Cadastrar
+        </Button>
+        <Button
+          style={styles.box}
+          icon="key"
+          buttonColor="#FE7277"
+          textColor={'black'}
+          mode="outlined"
+          onPress={() => navigation.navigate('Acesso')}>
+          Entrar
+        </Button>
       </Body>
     </Container>
     </SafeAreaProvider>

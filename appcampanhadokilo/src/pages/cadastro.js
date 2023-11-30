@@ -5,21 +5,38 @@ import { SafeAreaProvider  } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native'
 import Container from '../components/container';
 import Body from '../components/body';
+import {register} from '../services/auth.services'; 
 
 const CadastroDoadorPage = () => {
 
   const navigation = useNavigation();
 
-  const [login, setLogin] = useState('astormg')
+  const [email, setEmail] = useState('astormg@gmail.com')
+  const [name, setName] = useState('Astor Cézar de Souza Almeida')
   const [password, setPassword] = useState('astormg')
   const [bairro, setBairro] = useState('Horto')
   const [cidade, setCidade] = useState('Belo Horizonte')
   const [estado, setEstado] = useState('Minas Gerais')
   const [contato, setContato] = useState('3199998877')
 
-  handleCadastrar= () => {
-    Alert.alert('Cadastrado!')
-    navigation.goBack()
+  const handleCadastrar = () => {
+    register({
+      email: email,
+      name: name,
+      password: password,
+      bairro: bairro,
+      cidade: cidade,
+      estado: estado,
+      contato: contato
+    }).then( res => {
+      if(res){
+        Alert.alert('ATENÇÃO', 'Usuário cadastrado com Sucesso!', [{
+          text: 'OK', onPress: () => navigation.goBack()
+        }]);
+      }else{
+        Alert.alert('ATENÇÃO', 'Usuário não cadastrado!');
+      }
+    })
   }
 
   return(
@@ -31,27 +48,45 @@ const CadastroDoadorPage = () => {
       <Body>
       <Text style={styles.container.title}>NOVO CADASTRO</Text>
       <SafeAreaView>
-        <TextInput 
+      <TextInput
+        value={email}
+        onChangeText={(text) => setEmail(text)}
+        style={styles.container.input}
+        placeholder="Login"
+        />
+        <TextInput
+        value={nome}
+        onChangeText={(text) => setName(text)}        
         style={styles.container.input}
         placeholder="Nome Completo"
         />
         <TextInput
+          value={bairro}
+          onChangeText={(text) => setBairro(text)}
           style={styles.container.input}
           placeholder="Bairro"
         />
         <TextInput
+          value={cidade}
+          onChangeText={(text) => setCidade(text)}
           style={styles.container.input}
           placeholder="Cidade"
         />
         <TextInput
+        value={estado}
+        onChangeText={(text) => setEstado(text)}
           style={styles.container.input}
           placeholder="Estado"
         />        
         <TextInput
+          value={contato}
+          onChangeText={(text) => setContato(text)}
           style={styles.container.input}
           placeholder="Contato"
         />
         <TextInput
+        value={password}
+        onChangeText={(text) => setPassword(text)}
         secureTextEntry={true}
         style={styles.container.input}
         placeholder="Senha"
@@ -89,6 +124,7 @@ const styles = StyleSheet.create({
       borderBottomRightRadius: 6
     },
     input: {
+    padding: 10,
     backgroundColor:'#fff',
     height: 40,
     width: 280,

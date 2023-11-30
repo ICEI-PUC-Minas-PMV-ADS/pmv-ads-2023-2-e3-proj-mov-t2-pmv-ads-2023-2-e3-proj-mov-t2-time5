@@ -28,7 +28,7 @@ function DrawerRoutes() {
                  name="package" 
                  color={color} 
                  size={size} />,
-                 drawerLabel: 'Doar'
+                 drawerLabel: 'Doações'
             }}
             />
 
