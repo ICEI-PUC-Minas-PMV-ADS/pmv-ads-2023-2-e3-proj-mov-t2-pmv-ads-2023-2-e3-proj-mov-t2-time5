@@ -16,14 +16,10 @@ const SobreNos = () => {
         <Text style={styles.title}>SOBRE NÓS</Text>
         <View style={styles.box}>
           <Text style={styles.texto}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut
-            posuere turpis, vitae luctus lacus Morbi sodales ultrices enim, a
-            porttitor risus aliquam ac. Nullam dictum metus vel pharetra
-            interdum. Donec eu lacus ac nisi suscipit hendrerit placerat ornare
-            lectus. Nulla fringilla at nulla non varius. Cras pulvinar venenatis
-            volutpat. Sed eu velit nec erat vulputate finibus quis at mi. Nullam
-            quis ligula sed urna lacinia bibendum at in lectus. Proin quis
-            semper est.
+          Acreditamos que todos podem fazer a diferença no mundo, mesmo com pequenas ações. É por isso que criamos a Campanha do Quilo, 
+          um aplicativo de doação que torna fácil e conveniente ajudar quem precisa.
+          Com a Campanha do Quilo, você pode doar alimentos, roupas e outros itens para quem precisa.
+          A Campanha do Quilo é uma maneira fácil de fazer a diferença no mundo.
           </Text>
         </View>
       </Body>
