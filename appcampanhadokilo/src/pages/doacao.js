@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from "react";
 import { Text, View, Image, StyleSheet, Alert} from "react-native";
-import { Appbar, Button, RadioButton } from 'react-native-paper';
+import { Appbar, Button, RadioButton, TextInput } from 'react-native-paper';
 import { SafeAreaProvider  } from 'react-native-safe-area-context';
 import Container from '../components/container';
 import Body from '../components/body';
@@ -16,6 +16,8 @@ const Doacao = ({route}) => {
   const { bairro } = useUser();
   const { cidade } = useUser();
   const { name } = useUser();
+  const { contato } = useUser();
+  const [ historico, setHistorico ] = useState('');
 
   useEffect(() => {
     if ( item ){
@@ -31,6 +33,8 @@ const Doacao = ({route}) => {
           user: name,
           cidade: cidade,
           bairro: bairro,
+          contato: contato,
+          historico: historico,
           status: 0,
           id: item.id
         }
@@ -42,7 +46,9 @@ const Doacao = ({route}) => {
         user: name,
         cidade: cidade,
         bairro: bairro,
-        status: 0,
+        contato: contato,
+        historico: historico,
+        status: 0
       }
     ).then();
   };
@@ -50,7 +56,7 @@ const Doacao = ({route}) => {
 }
 
 handleSolicitar = () => {
-    Alert.alert('CONTATO PARA DOAÇÃO', 'O contato do doador: é: ' + item.user)
+    Alert.alert('CONTATO PARA DOAÇÃO', 'O contato do doador: ' + item.user + ' é: ' + item.contato)
 }
 
 handleExcluir = () => {
@@ -73,6 +79,14 @@ handleExcluir = () => {
                 <Text style={{fontSize: 18}}>
                   QUE TIPO DE DOAÇÃO VOCÊ DESEJA REALIZAR?
                 </Text>
+                <View>
+           <TextInput
+          style={styles.textInput}
+          label="Descrição"
+          value={historico}
+          onChangeText={(text) => setHistorico(text)}
+        />
+           </View>
                 <View style={styles.container}>
                 <View style={{ marginTop: 100 }}>
                 <RadioButton
@@ -128,8 +142,20 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     height: 180,
-    marginBottom: 30
+    marginBottom: 10
   },
+  textInput: {
+    backgroundColor: '#FFF',
+    marginBottom:10,
+    marginTop:10,
+    height: 50,
+    width: 300,
+    borderWidth: 1,
+    padding: 5,
+    color:'#00C2FF',
+    borderColor:'#FE7277',
+    fontSize: 12,
+  }
 });
 
 export default Doacao;

@@ -7,8 +7,8 @@ export default function UserProvider({ children }) {
   const [name, setName] = useState('');
   const [cidade, setCidade] = useState('');
   const [bairro, setBairro] = useState('');
-  const [email, setEmail] = useState('');
-
+  const [historico, setHistorico] = useState('');
+  const [contato, setContato] = useState('');
   return (
     <UserContext.Provider
       value={{
@@ -20,8 +20,8 @@ export default function UserProvider({ children }) {
         setCidade,
         bairro,
         setBairro,
-        email,
-        setEmail,
+        contato,
+        setContato
       }}>
       {children}
     </UserContext.Provider>
@@ -30,6 +30,6 @@ export default function UserProvider({ children }) {
 
 export function useUser() {
   const context = useContext(UserContext);
-  const { signed, setSigned, name, setName, cidade, setCidade, bairro, setBairro, email, setEmail } = context;
-  return { signed, setSigned, name, setName, cidade, setCidade, bairro, setBairro, email, setEmail };
+  const { signed, setSigned, name, setName, cidade, setCidade, bairro, setBairro, contato, setContato } = context;
+  return { signed, setSigned, name, setName, cidade, setCidade, bairro, setBairro, contato, setContato };
 }

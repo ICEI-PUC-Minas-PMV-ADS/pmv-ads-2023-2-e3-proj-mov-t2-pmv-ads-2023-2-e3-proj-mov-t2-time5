@@ -14,10 +14,10 @@ import {login} from '../services/auth.services';
 const Login = () => {
 
   const navigation = useNavigation();
-  const {setSigned, setName, setBairro, setCidade} = useUser();
+  const {setSigned, setName, setBairro, setCidade, setContato} = useUser();
 
-  const [email, setEmail] = useState('astormg@hotmail.com');
-  const [password, setPassword] = useState('astormg');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
    const handleLogin= () => {
 

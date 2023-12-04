@@ -10,8 +10,11 @@ import { useUser } from '../contexts/UserContext'
 
 const Cadastro = () => {
 
-const { name } = useUser();
+const { name, setSigned } = useUser();
   const navigation = useNavigation();
+  const handleSair = () => {
+    setSigned(false);
+  }
   return (
     <SafeAreaProvider>
     <Appbar.Header>
@@ -28,6 +31,14 @@ const { name } = useUser();
           <Text style={styles.texto}>
             SEJA BEM VINDA(O) AO MUNDO DA CARIDADE, {name}
           </Text>
+          <Button
+          style={styles.box}
+          buttonColor="#FE7277"
+          textColor={'black'}
+          mode="outlined"
+          onPress={() => handleSair()}>
+          Sair
+        </Button>
         </View>
       </Body>
     </Container>
@@ -41,8 +52,10 @@ const styles = StyleSheet.create({
     height: 300,
   },
   box: {
+    marginTop: 20,
     width: '80%',
     marginBottom: 10,
+    alignItems: 'center'
   },
   title: {
     marginTop: 10,

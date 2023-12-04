@@ -24,7 +24,7 @@ const SobreNos = () => {
     const Item = ({item}) => (
         <List.Item
         title= {item.tipo == 0 ? "Roupas" : "Alimentos"}
-        description={'Doado por: ' + item.user}
+        description={item.historico}
         left={props => <List.Icon {...props} icon={ item.tipo == 0 ? 'human' : 'food'} />}
         right={props => <Text style={{alignSelf:'center', textAlign: 'right'}}> {item.cidade} {'\n'} {item.bairro} </Text>}
         onPress={() => navigation.navigate('EDoacao', {item})}

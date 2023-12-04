@@ -69,6 +69,26 @@
       "estado": "Minas Gerais",
       "contato": "3199998877",
       "id": 7
+    },
+    {
+      "email": "999@999.com.br",
+      "password": "$2a$10$yjqZnhR8Tiwz44ECQUt/1OK.cyZzpllYpVJ4Tg7neL4sW22AZ1TDm",
+      "name": "Gabi do Céu",
+      "bairro": "Felicidade",
+      "cidade": "Sao Paulo",
+      "estado": "Sao Paulo",
+      "contato": "3199998899",
+      "id": 8
+    },
+    {
+      "email": "expo@expo.com.br",
+      "password": "$2a$10$QxBlB311978Z4RGKg3M7PO1WAU9ad11XrtSLiGmOWDoSd6.YMV0Uq",
+      "name": "React Native",
+      "bairro": "Ipanema",
+      "cidade": "Rio de Janeiro",
+      "estado": "Rio de Janeiro",
+      "contato": "21555556611",
+      "id": 9
     }
   ]
 }

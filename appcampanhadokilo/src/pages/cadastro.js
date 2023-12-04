@@ -11,13 +11,13 @@ const CadastroDoadorPage = () => {
 
   const navigation = useNavigation();
 
-  const [email, setEmail] = useState('astormg@gmail.com')
-  const [name, setName] = useState('Astor Cézar de Souza Almeida')
-  const [password, setPassword] = useState('astormg')
-  const [bairro, setBairro] = useState('Horto')
-  const [cidade, setCidade] = useState('Belo Horizonte')
-  const [estado, setEstado] = useState('Minas Gerais')
-  const [contato, setContato] = useState('3199998877')
+  const [email, setEmail] = useState('')
+  const [name, setName] = useState('')
+  const [password, setPassword] = useState('')
+  const [bairro, setBairro] = useState('')
+  const [cidade, setCidade] = useState('')
+  const [estado, setEstado] = useState('')
+  const [contato, setContato] = useState('')
 
   const handleCadastrar = () => {
     register({
@@ -55,7 +55,7 @@ const CadastroDoadorPage = () => {
         placeholder="Login"
         />
         <TextInput
-        value={nome}
+        value={name}
         onChangeText={(text) => setName(text)}        
         style={styles.container.input}
         placeholder="Nome Completo"

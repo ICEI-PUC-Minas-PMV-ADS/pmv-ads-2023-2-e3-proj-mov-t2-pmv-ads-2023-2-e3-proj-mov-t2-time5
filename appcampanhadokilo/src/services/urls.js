@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://deep-pears-drum.loca.lt';
+export const BASE_URL = 'https://curly-keys-write.loca.lt';

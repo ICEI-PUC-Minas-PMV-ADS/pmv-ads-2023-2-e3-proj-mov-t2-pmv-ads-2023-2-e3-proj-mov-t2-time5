@@ -3,11 +3,11 @@ import * as SQLite from 'expo-sqlite';
 const Database = {
   getConnection: () => {
     
-    const db = SQLite.openDatabase('campanha.db');
+    const db = SQLite.openDatabase('kilo.db');
 
     db.transaction((tx) => {
       tx.executeSql(
-        'create table if not exists doacao (id integer primary key not null, tipo int not null, user text not null, cidade text not null, bairro text not null, status int not null);'
+        'create table if not exists doacoes (id integer primary key not null, tipo int not null, user text not null, cidade text not null, bairro text not null, contato text not null, historico text not null, status int not null);'
       );
     });
 
