@@ -22,6 +22,7 @@ const Doacao = ({route}) => {
   useEffect(() => {
     if ( item ){
       setChecked(item.tipo);
+      setHistorico(item.historico);
     }
   }, [item])
 

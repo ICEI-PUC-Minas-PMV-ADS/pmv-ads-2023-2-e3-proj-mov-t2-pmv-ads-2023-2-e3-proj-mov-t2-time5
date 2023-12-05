@@ -9,6 +9,66 @@
       "estado": "Minas Gerais",
       "contato": "3199998877",
       "id": 1
+    },
+    {
+      "email": "teste@teste.com.br",
+      "password": "$2a$10$iSQxiTe6/KNA9oVfy01nBeoZdnS3OzZ4qZxCtLii/TITb3BYEC3tq",
+      "name": "Bruno Cézar",
+      "bairro": "Talme",
+      "cidade": "Belo Horizonte",
+      "estado": "Minas Gerais",
+      "contato": "31999988877",
+      "id": 2
+    },
+    {
+      "email": "teste2@teste.com.br",
+      "password": "$2a$10$z23G/k1piNMdBL3lcbCRMugy7JiTsSA3SJW5IpbieQrYCb0/54tOW",
+      "name": "Renata Oliveira",
+      "bairro": "Higito",
+      "cidade": "Contagem",
+      "estado": "Minas Gerais",
+      "contato": "31111199775",
+      "id": 3
+    },
+    {
+      "email": "teste@teste.com",
+      "password": "$2a$10$majhtyEftAM4nZTK0dYDN.MQ2TJgOJMcWVg0/0Qp2XzjVHeDa5jlm",
+      "name": "Fernando",
+      "bairro": "Tesouro",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "contato": "3199998877",
+      "id": 4
+    },
+    {
+      "email": "teste1@teste.com",
+      "password": "$2a$10$8.ilabwUgWPuY0dtJQhKI.SiFydPxuEugA1GtLO0h7F2m.qIadbYK",
+      "name": "Renata Veloso",
+      "bairro": "Cruzeiro",
+      "cidade": "Belo Horizonte",
+      "estado": "MInas Gerais",
+      "contato": "31555556677",
+      "id": 5
+    },
+    {
+      "email": "teste2@teste.com",
+      "password": "$2a$10$/hps5kPHLGNLbHpOd3SO7.gBQG1OjwbhJlfd5k0eNMI72vB7UIeda",
+      "name": "Thiago Oliveira",
+      "bairro": "Eldorado",
+      "cidade": "Contagem",
+      "estado": "MG",
+      "contato": "31444447722",
+      "id": 6
+    },
+    {
+      "email": "teste3@teste.com",
+      "password": "$2a$10$6MngWd46esRMgLwGJFxHn.okXfTOd.f0FvPoVtwpG.XOqhO5B/hZ.",
+      "name": "Otavio Guedes",
+      "bairro": "Industrias",
+      "cidade": "Betim",
+      "estado": "MG",
+      "contato": "31666669944",
+      "id": 7
     }
   ]
 }

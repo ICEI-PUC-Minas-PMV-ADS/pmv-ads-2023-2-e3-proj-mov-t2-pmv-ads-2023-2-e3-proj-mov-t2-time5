@@ -18,7 +18,7 @@ const SobreNos = () => {
           <Text style={styles.texto}>
           Acreditamos que todos podem fazer a diferença no mundo, mesmo com pequenas ações. É por isso que criamos a Campanha do Quilo, 
           um aplicativo de doação que torna fácil e conveniente ajudar quem precisa.
-          Com a Campanha do Quilo, você pode doar alimentos, roupas e outros itens para quem precisa.
+          Com a Campanha do Quilo, você pode doar alimentos e/ou roupas para quem precisa.
           A Campanha do Quilo é uma maneira fácil de fazer a diferença no mundo.
           </Text>
         </View>
