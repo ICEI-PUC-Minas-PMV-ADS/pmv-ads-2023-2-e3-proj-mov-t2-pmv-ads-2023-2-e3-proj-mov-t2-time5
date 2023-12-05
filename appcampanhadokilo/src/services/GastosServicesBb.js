@@ -9,6 +9,12 @@ export const getDoacoes = async () => {
   return results.rows._array;
 }
 
+export const getDoacoesFiltro = async (i) => {
+  let results = await DB_EXEC(`select * from doacoes where user != i`);
+  //console.log(results);
+  return results.rows._array;
+}
+
 export const insertDoacao = async (param) => {
   let results = await DB_EXEC(`insert into doacoes(tipo, user, cidade, bairro, contato, historico, status)
   values(?,?,?,?,?,?,?)`, [param.tipo, param.user, param.cidade, param.bairro, param.contato, param.historico, param.status]);

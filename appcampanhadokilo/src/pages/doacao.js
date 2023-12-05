@@ -57,6 +57,7 @@ const Doacao = ({route}) => {
 
 handleSolicitar = () => {
     Alert.alert('CONTATO PARA DOAÇÃO', 'O contato do doador: ' + item.user + ' é: ' + item.contato)
+    navigation.goBack()
 }
 
 handleExcluir = () => {

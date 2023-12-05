@@ -35,7 +35,6 @@ const SobreNos = () => {
     <SafeAreaProvider>
     <Appbar.Header>
       <Appbar.Content title={'Campanha do Quilo'} />
-      <Appbar.Action icon={'magnify'} onPress={()=> {}} />
     </Appbar.Header>
     <Container>
       <Body>

@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://curly-keys-write.loca.lt';
+export const BASE_URL = 'https://angry-moose-crash.loca.lt';
